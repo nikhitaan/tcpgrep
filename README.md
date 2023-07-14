@@ -1,4 +1,4 @@
-We have developed a powerful command line tool called "tcpgrep" that is used to filter the network traffic for displaying the TCP packets information based on a variety of criteria, including source and destination IP addresses, ports and protocols.This command line tool helps the user to get the required information on the TCP packets by using the following options. The command is tcpgrep and the options are:-
+We have developed a powerful command line tool called "tcpgrep" that is used to filter the network traffic for displaying the TCP packets information based on a variety of criteria, including source and destination IP addresses, ports and protocols.This command line tool helps the user to get the required information on the TCP packets by using the following options. The command is tcpgrep and the options are:- 
 
 o  For displaying help option , 
 tcpgrep pcapfilename
