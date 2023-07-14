@@ -1,3 +1,5 @@
+/* This code is used to generate your own pcap file from the available interface in your system.*/
+
 #include <pcap.h>
 void packet_handler(u_char *user, const struct pcap_pkthdr *pkt_header, const u_char *pkt_data);
 int main(int argc, char **argv)
