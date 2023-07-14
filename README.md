@@ -22,14 +22,16 @@ o  To display the total number of duplicate ack packets,
 tcpgrep pcapfilename -a
 
 o  To display the total number of duplicate ack packets with packet number,
-
 tcpgrep pcapfilename -an
 
-o  To dump specific range of tcp packet, tcpgrep pcapfile name -p packet range start – end range.
+o  To dump specific range of tcp packet, tcpgrep pcapfile name -p packet range start – end range
+
 Example: tcpgrep pcapfilename -p 2-10
 
-o  To dump specific range of ports, tcpgrep pcapfile name -p: ip address:port no.
+o  To dump specific range of ports, tcpgrep pcapfile name -p: ip address:port no
+
 Example: tcpgrep pcapfilename -p 192.168.4.5:443
 
-o  To dump specified tcpflags, tcpgrep pcapfile name -pflags: A,P,F,U,S,R. 
+o  To dump specified tcpflags, tcpgrep pcapfile name -pflags: A,P,F,U,S,R 
+
 Example : tcpgrep pcapfilename -pA ,-pF,-pS,-pU,-pR,-pP
